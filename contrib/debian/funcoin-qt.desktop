@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FunCoin
+Comment=FunCoin P2P Cryptocurrency
+Comment[fr]=FunCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=FunCoin, eşten eşe kriptografik sanal para birimi
+Exec=funcoin-qt %u
+Terminal=false
+Type=Application
+Icon=funcoin128
+MimeType=x-scheme-handler/funcoin;
+Categories=Office;Finance;

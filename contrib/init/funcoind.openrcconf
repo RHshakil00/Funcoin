@@ -1,0 +1,26 @@
+# /etc/conf.d/funcoind: config file for /etc/init.d/funcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/funcoin/funcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/funcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/funcoind.pid"
+
+# Where to write funcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/funcoind"
+
+# User and group to own funcoind process
+#BITCOIND_USER="funcoin"
+#BITCOIND_GROUP="funcoin"
+
+# Path to funcoind executable
+#BITCOIND_BIN="/usr/bin/funcoind"
+
+# Nice value to run funcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
